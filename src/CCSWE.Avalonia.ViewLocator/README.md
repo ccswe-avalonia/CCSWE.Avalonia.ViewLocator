@@ -20,7 +20,7 @@ DataTemplates.Add(new ViewLocator(serviceProvider));
 Views are resolved via `IServiceProvider.GetService(viewType)`, so register each view with your container
 (e.g. `services.AddTransient<EmulatorView>()`).
 
-See the [repository](https://github.com/CCSWE-Avalonia/CCSWE.Avalonia.ViewLocator) for full usage and the
+See the [repository](https://github.com/ccswe-avalonia/CCSWE.Avalonia.ViewLocator) for full usage and the
 convention details.
 
 MIT © Cory Charlton / CCSWE.

@@ -12,8 +12,8 @@
     <Company>CCSWE</Company>
     <Copyright>© Copyright CCSWE, 2026. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/CCSWE-Avalonia/CCSWE.Avalonia.ViewLocator</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/CCSWE-Avalonia/CCSWE.Avalonia.ViewLocator</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ccswe-avalonia/CCSWE.Avalonia.ViewLocator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ccswe-avalonia/CCSWE.Avalonia.ViewLocator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
