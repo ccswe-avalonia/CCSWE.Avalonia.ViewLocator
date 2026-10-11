@@ -1,6 +1,6 @@
 # CCSWE.Avalonia.ViewLocator
 
-[![Build](https://img.shields.io/github/actions/workflow/status/ccswe-avalonia/CCSWE.Avalonia.ViewLocator/dotnet-build-publish-library.yml?branch=master&label=build)](https://github.com/ccswe-avalonia/CCSWE.Avalonia.ViewLocator/actions/workflows/dotnet-build-publish-library.yml)
+[![Build](https://img.shields.io/github/actions/workflow/status/ccswe-avalonia/CCSWE.Avalonia.ViewLocator/dotnet-build-library.yml?branch=master&label=build)](https://github.com/ccswe-avalonia/CCSWE.Avalonia.ViewLocator/actions/workflows/dotnet-build-library.yml)
 [![NuGet](https://img.shields.io/nuget/v/CCSWE.Avalonia.ViewLocator.svg)](https://www.nuget.org/packages/CCSWE.Avalonia.ViewLocator)
 [![Downloads](https://img.shields.io/nuget/dt/CCSWE.Avalonia.ViewLocator.svg)](https://www.nuget.org/packages/CCSWE.Avalonia.ViewLocator)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
