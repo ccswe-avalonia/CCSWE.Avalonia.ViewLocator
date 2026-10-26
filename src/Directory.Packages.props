@@ -6,7 +6,7 @@
     <PackageVersion Include="Avalonia" Version="12.1.4" />
     <PackageVersion Include="Avalonia.Desktop" Version="12.1.4" />
     <PackageVersion Include="AvaloniaUI.DiagnosticsSupport" Version="2.2.3" />
-    <PackageVersion Include="CCSWE.Avalonia.Material" Version="12.1.13" />
+    <PackageVersion Include="CCSWE.Avalonia.Material" Version="12.1.14" />
     <PackageVersion Include="JetBrains.Annotations" Version="2026.2.0" />
     <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="5.9.0" />
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.13" />
@@ -22,6 +22,6 @@
     <PackageVersion Include="Verify.SourceGenerators" Version="2.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <GlobalPackageReference Include="Meziantou.Polyfill" Version="1.0.166" PrivateAssets="all" />
+    <GlobalPackageReference Include="Meziantou.Polyfill" Version="1.0.168" PrivateAssets="all" />
   </ItemGroup>
 </Project>
