@@ -3,8 +3,8 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Avalonia" Version="12.1.4" />
-    <PackageVersion Include="Avalonia.Desktop" Version="12.1.4" />
+    <PackageVersion Include="Avalonia" Version="12.1.5" />
+    <PackageVersion Include="Avalonia.Desktop" Version="12.1.5" />
     <PackageVersion Include="AvaloniaUI.DiagnosticsSupport" Version="2.2.3" />
     <PackageVersion Include="CCSWE.Avalonia.Material" Version="12.1.17" />
     <PackageVersion Include="JetBrains.Annotations" Version="2026.2.0" />
@@ -22,6 +22,6 @@
     <PackageVersion Include="Verify.SourceGenerators" Version="2.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <GlobalPackageReference Include="Meziantou.Polyfill" Version="1.0.169" PrivateAssets="all" />
+    <GlobalPackageReference Include="Meziantou.Polyfill" Version="1.0.170" PrivateAssets="all" />
   </ItemGroup>
 </Project>
