@@ -3,16 +3,16 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Avalonia" Version="12.1.5" />
-    <PackageVersion Include="Avalonia.Desktop" Version="12.1.5" />
+    <PackageVersion Include="Avalonia" Version="12.1.6" />
+    <PackageVersion Include="Avalonia.Desktop" Version="12.1.6" />
     <PackageVersion Include="AvaloniaUI.DiagnosticsSupport" Version="2.2.3" />
-    <PackageVersion Include="CCSWE.Avalonia.Material" Version="12.1.17" />
+    <PackageVersion Include="CCSWE.Avalonia.Material" Version="12.1.18" />
     <PackageVersion Include="JetBrains.Annotations" Version="2026.2.0" />
     <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="5.9.0" />
-    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.14" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.15" />
     <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" />
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
-    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="10.0.403" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.12.0" />
+    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="10.0.404" />
     <PackageVersion Include="Nerdbank.GitVersioning" Version="3.10.94" />
     <PackageVersion Include="NUnit" Version="5.0.0" />
     <PackageVersion Include="NUnit.Analyzers" Version="4.15.0" />
@@ -22,6 +22,6 @@
     <PackageVersion Include="Verify.SourceGenerators" Version="2.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <GlobalPackageReference Include="Meziantou.Polyfill" Version="1.0.170" PrivateAssets="all" />
+    <GlobalPackageReference Include="Meziantou.Polyfill" Version="1.0.171" PrivateAssets="all" />
   </ItemGroup>
 </Project>
