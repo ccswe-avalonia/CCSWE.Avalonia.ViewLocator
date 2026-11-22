@@ -16,6 +16,9 @@ updates:
     ignore:
       # Pinned to the Roslyn host floor (4.8.0); see CLAUDE.md.
       - dependency-name: "Microsoft.CodeAnalysis.CSharp"
+      # Follows the .NET major (net10.0); see CLAUDE.md.
+      - dependency-name: "Microsoft.Extensions.*"
+        update-types: ["version-update:semver-major"]
     groups:
       nuget-minor-patch:
         update-types: [minor, patch]
