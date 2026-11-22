@@ -45,7 +45,8 @@ dotnet pack  src/CCSWE.Avalonia.ViewLocator.slnx -c Release -o artifacts
 dotnet tool restore && dotnet validate package local artifacts/*.nupkg   # validate analyzer packaging
 ```
 
-CPM (`src/Directory.Packages.props`); never put `Version=` on a `<PackageReference>`. Versioning via
+CPM (`src/Directory.Packages.props`); never put `Version=` on a `<PackageReference>`. `Microsoft.Extensions.*` (the
+Sample's DI) stays on the TFM's .NET major (10); Dependabot ignores its majors. Source Link comes from the SDK (no package). Versioning via
 Nerdbank.GitVersioning (`version.json`); major tracks the Avalonia major. CI (`.github/workflows/dotnet-build-library.yml` → `ccswe-apps/actions`
 `dotnet-build-library.yml`, `validate-packages: true`) builds/tests/packs/validates; a `master` push that changes
 `src` (or `version.json`/`global.json`) publishes to NuGet.org and sends `update-dependencies` to the
